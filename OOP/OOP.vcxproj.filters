@@ -20,12 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="clsPerson.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="clsEmployee.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="clsString.h">
       <Filter>Header Files</Filter>
     </ClInclude>

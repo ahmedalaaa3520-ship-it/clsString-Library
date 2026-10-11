@@ -126,8 +126,6 @@
     <ClCompile Include="OOP.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="clsEmployee.h" />
-    <ClInclude Include="clsPerson.h" />
     <ClInclude Include="clsString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
