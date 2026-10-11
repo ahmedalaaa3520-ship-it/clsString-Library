@@ -1,6 +1,8 @@
 
 #pragma once
 #include<iostream>
+#include<string>
+#include<cctype>
 #include<vector>
 
 using namespace std;
@@ -199,7 +201,7 @@ public:
 
 	short CountLetter(enWhatToCount WhatToCount = enWhatToCount::All)
 	{
-		return CountLetter(_Value, WhatToCount = enWhatToCount::All);
+		return CountLetter(_Value, WhatToCount);
 	}
 
 	static short CountCapitalLetters(string S1)
@@ -402,6 +404,7 @@ public:
 	static string ReverseWordsInString(string S1)
 	{
 
+		if (S1.empty()) return "";
 		vector<string> vString;
 		string S2 = "";
 
